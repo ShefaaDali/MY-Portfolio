@@ -1,0 +1,15 @@
+.my-name{
+    font-family: 'Courgette', cursive;
+    font-weight: 700;
+    color:var(--very-dark-violet);
+
+}
+ 
+
+.main-text-color{
+    color:var(--very-dark-violet);
+}
+
+.link:hover, .link:active{
+    color:var(--very-dark-blue);
+}
