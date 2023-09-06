@@ -1,0 +1,29 @@
+
+.ProjectCard p , .ProjectCard h4{
+    color: var(--very-dark-blue);
+}
+
+.ProjectCard span{
+    background-color: var(--very-dark-blue);
+}
+.card-title a{
+    transition: 1s ease-in-out all;
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+    color:#222;
+}
+
+
+@keyframes changcolor {
+    0% { color:#222; }
+   50% { color: var(--very-dark-violet); }
+   100% { color: var(--very-dark-violet); }
+
+  }
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+   25% { transform: rotate(-4deg); }
+   50% { transform: rotate(0deg); }
+   75% { transform: rotate(4deg); }
+  100% { transform: rotate(0deg); }
+  }

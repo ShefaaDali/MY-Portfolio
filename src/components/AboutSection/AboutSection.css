@@ -1,20 +1,21 @@
-.about-section .text{
+.about-section .AboutText{
     position: relative;
-    top:-10px;
+    top:-5px; 
     background-color: #73566B;
 }
-.text p{
+
+.AboutText p{
     font-family: Quicksand;
     font-weight:400;
 }
-.text h1{
+.AboutText h1{
     position: relative;
-    top:-25px;
     font-family: Quicksand;
     font-weight:700;
 }
 
 .second-svg {
     position: relative;
-    top:-50px;
+    top:-25px;
+    margin-top: 0px;
 }

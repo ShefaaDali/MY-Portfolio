@@ -1,25 +1,25 @@
 .hero-content p{
-    color: #333;
+    color: var(--very-dark-blue);
 }
 .hero-section span{
     color:var(--violet);
     text-shadow: 1px;    
 }
-.linkes{
+.hero-section .linkes{
     width:fit-content;
 }
-.linkes a{
+.hero-section .linkes a{
     color: #999;
     font-size: 40px;
 }
 
-.linkedin-icon:hover{
+.hero-section .linkedin-icon:hover{
     color:#0a66c2;
 }
-.github-icon:hover{
+.hero-section .github-icon:hover{
     color: #222;
 }
-.email-icon:hover{
+.hero-section .email-icon:hover{
     color: rgb(0, 157, 255);
 }
 .skills img{

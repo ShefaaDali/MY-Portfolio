@@ -1,0 +1,9 @@
+.ProjectImage{
+    object-fit:scale-down;
+    max-height: 270px;
+width: auto;
+}
+
+.ImageSlider{
+    height: 270px;
+}

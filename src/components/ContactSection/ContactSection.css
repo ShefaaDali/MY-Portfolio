@@ -1,0 +1,29 @@
+.ContantBody{
+    top:-1px;
+    position: relative;
+    font-family: Quicksand;
+    font-weight:700;
+    background-color: var(--very-dark-blue);
+
+}
+
+.ContantBody h1{
+    display: inline;
+}
+.ContantBody .linkes{
+    width:fit-content;
+    display: inline;
+}
+.ContantBody .linkes a{
+    font-size: 30px;
+}
+.ContantBody .linkedin-icon ,.ContantBody .email-icon{
+    color: #f8f9fa;
+}
+.linkedin-icon:hover{
+    color:#0a66c2;
+}
+
+.email-icon:hover{
+    color: rgb(0, 157, 255);
+}

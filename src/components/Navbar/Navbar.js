@@ -10,16 +10,16 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse bg-white-50" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-          <li className="nav-item ">
-            <a className="nav-link active main-text-color link" aria-current="page" href="#Home">Home</a>
+          <li className="nav-item fs-5">
+            <a className="nav-link main-text-color link" aria-current="page" href="#Home">Home</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item fs-5">
             <a className="nav-link main-text-color link" href="#About">About</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item fs-5">
             <a className="nav-link main-text-color  link" href="#Projects">Projects</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item fs-5">
             <a className="nav-link  main-text-color link" href="#Contact">Contact</a>
           </li>
         </ul>
