@@ -16,7 +16,7 @@ import Sql from "./../../images/database.png";
 function HeroSection() {
   return (
     <div
-      className="hero-section container d-sm-flex pt-5 justify-content-center align-items-center mt-5"
+      className="hero-section container-fluid d-sm-flex pt-5 justify-content-center align-items-center mt-5"
       id="Home"
     >
       <div className="hero-content pt-5 ">
@@ -25,7 +25,7 @@ function HeroSection() {
           <span className="fw-bold ">Shefaa Dali </span>
           <br></br> Computer Engineer
         </p>
-        <div className="linkes m-auto align-items-center">
+        <div className="linkes m-auto">
           <a href="https://www.linkedin.com/in/shefaadali/">
             <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon mx-2" />
           </a>
@@ -39,7 +39,7 @@ function HeroSection() {
             <FontAwesomeIcon icon={faEnvelope} className="email-icon mx-2" />
           </a>
         </div>
-        <div className="skills my-5 justify-content-center">
+        <div className="skills my-5 mx-2">
           <img src={HTML} alt="HTML" className="html-icon " />
           <img src={Css} alt="CSS" className="css-icon" />
           <img src={JS} alt="JS" className="js-icon" />
@@ -55,7 +55,7 @@ function HeroSection() {
         <img
           src={computer}
           alt=""
-          className="Computer-image img-fluid w-60 d-none d-md-block my-auto"
+          className="Computer-image img-fluid w-60 d-none d-md-block "
         />
       </div>
     </div>

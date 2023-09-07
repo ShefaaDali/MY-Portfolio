@@ -5,12 +5,12 @@
 }
 
 .AboutText p{
-    font-family: Quicksand;
+    font-family: var(--Second-font);
     font-weight:400;
 }
 .AboutText h1{
     position: relative;
-    font-family: Quicksand;
+    font-family: var(--Second-font);
     font-weight:700;
 }
 

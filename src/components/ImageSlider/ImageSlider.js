@@ -5,6 +5,7 @@ function ImageSlider({ images ,id}) {
   for (let i = 1; i < images.length; i++)
     rows.push(
       <button
+      key={i}
         id={i}
         type="button"
         data-bs-target={`#ImageSlider${id}`}
@@ -13,8 +14,8 @@ function ImageSlider({ images ,id}) {
       ></button>
     );
   return (
-    <div id={`ImageSlider${id}`} className="carousel slide ImageSlider" >
-      <div className="carousel-indicators">
+    <div id={`ImageSlider${id}`} className="carousel slide ImageSlider border border-4 m-2" >
+      {images.length !==1 &&( <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target={`#ImageSlider${id}`}
@@ -24,17 +25,19 @@ function ImageSlider({ images ,id}) {
           aria-label="Slide 1"
         ></button>
         {rows}
-      </div>
+      </div>)}
+     
       <div className="carousel-inner">
         {images.map((e, id) => {
           return (
             <div
-              className={`carousel-item ${id === 0 ? "active" : ""}`}
+              className={`carousel-item  ${id === 0 ? "active" : ""}`}
               id={id}
+              key={id}
             >
               <img
                 src={e.Path}
-                className="d-block w-100 ProjectImage justify-content-center align-items-center"
+                className="d-block ProjectImage"
                 alt={e.Caption}
               />
               <div className="carousel-caption d-none d-md-block">
@@ -44,7 +47,7 @@ function ImageSlider({ images ,id}) {
           );
         })}
       </div>
-      <button
+      {images.length!==1 && (<><button
         className="carousel-control-prev"
         type="button"
         data-bs-target={`#ImageSlider${id}`}
@@ -52,16 +55,16 @@ function ImageSlider({ images ,id}) {
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
-      </button>
-      <button
+      </button><button
         className="carousel-control-next"
         type="button"
         data-bs-target={`#ImageSlider${id}`}
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button></>)}
+     
     </div>
   );
 }

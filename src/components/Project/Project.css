@@ -1,4 +1,3 @@
-
 .ProjectCard p , .ProjectCard h4{
     color: var(--very-dark-blue);
 }
@@ -12,18 +11,11 @@
     animation-iteration-count: infinite;
     color:#222;
 }
+.card-body a{
+    background-color: var(--very-dark-violet);
+}
+.card-body a:hover{
+    background-color: var(--very-dark-violet-ligther);
 
+}
 
-@keyframes changcolor {
-    0% { color:#222; }
-   50% { color: var(--very-dark-violet); }
-   100% { color: var(--very-dark-violet); }
-
-  }
-@keyframes shake {
-    0% { transform: rotate(0deg); }
-   25% { transform: rotate(-4deg); }
-   50% { transform: rotate(0deg); }
-   75% { transform: rotate(4deg); }
-  100% { transform: rotate(0deg); }
-  }

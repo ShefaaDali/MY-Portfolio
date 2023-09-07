@@ -1,9 +1,15 @@
 .ProjectImage{
-    object-fit:scale-down;
-    max-height: 270px;
-width: auto;
+  object-fit:contain;
+  height: 290px;
+  width:100% ;
 }
 
-.ImageSlider{
-    height: 270px;
+
+
+@media screen and (min-width:992px){
+    .ImageSlider{
+        height: 300px;
+        width: 50%
+    }
 }
+

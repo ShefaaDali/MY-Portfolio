@@ -11,7 +11,7 @@ function AboutSection() {
       </svg>
       <div className="AboutText container-fluid">
         <h1 className='text-center text-light py-3'>About</h1>
-        <p className="container py-2 fs-4 text-light lead">  
+        <p className="container py-2 fs-4 text-light">  
         Fresh graduate computer engineer with a strong academic background, interested in web development, looking for new opportunity to employ and develop my knowledge and skills.
         <br></br>
         <br></br>
