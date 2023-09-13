@@ -1,3 +1,23 @@
+@media screen and (max-width:768px) {
+    .hero-section{
+        position: relative;
+        }
+        
+        .hero-section:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            background-image: url('../../images/binary-code.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }  
+}
 .hero-content p{
     color: var(--very-dark-blue);
 }

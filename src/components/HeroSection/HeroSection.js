@@ -12,6 +12,7 @@ import Express from "./../../images/icons8-express-js-50.png";
 import Git from "./../../images/icons8-git-48.png";
 import Java from "./../../images/java.png";
 import Sql from "./../../images/database.png";
+import Bootstrap from "./../../images/icons8-bootstrap-48.png"
 
 function HeroSection() {
   return (
@@ -49,6 +50,7 @@ function HeroSection() {
           <img src={Git} alt="Git" className="git-icon" />
           <img src={Sql} alt="SQL" className="sql-icon" />
           <img src={Java} alt="JAVA" className="java-icon" />
+          <img src={Bootstrap} alt="Bootstrap" className="Bootstrap-icon" />
         </div>
       </div>
       <div className="nero-image">

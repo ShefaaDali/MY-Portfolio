@@ -1,8 +1,9 @@
 import "./TestimonialsSection.css";
 import TestimonialCard from "../TestimonialCard/TestimonialCard";
+import{testimonials} from '../../data'
 function TestimonialsSection() {
   return (
-    <div className="TestimonialsSection">
+    <div className="TestimonialsSection" id="Testimonials">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
         <path
           fill="#313d5a"
@@ -14,10 +15,7 @@ function TestimonialsSection() {
         <div className="container">
         <h1 className="text-center text-light py-4"> Testimonials</h1>
         <div className="d-flex flex-wrap justify-content-center pb-5">
-          <TestimonialCard/>
-          <TestimonialCard/>
-          <TestimonialCard/>
-          <TestimonialCard/>
+          {testimonials.map((e)=><TestimonialCard data={e}/>)}
         </div>
         </div>
       </div>

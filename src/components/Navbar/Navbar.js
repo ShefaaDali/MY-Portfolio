@@ -20,6 +20,9 @@ function Navbar() {
             <a className="nav-link main-text-color  link" href="#Projects">Projects</a>
           </li>
           <li className="nav-item fs-5">
+            <a className="nav-link main-text-color  link" href="#Testimonials">Testimonials</a>
+          </li>
+          <li className="nav-item fs-5">
             <a className="nav-link  main-text-color link" href="#Contact">Contact</a>
           </li>
         </ul>

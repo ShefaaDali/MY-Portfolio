@@ -5,6 +5,10 @@ import emp2 from './images/employee-management-website3.png'
 import emp3 from './images/employee-management-website4.png'
 import emp4 from './images/employee-management-website5.png'
 import emp5 from './images/employee-management-website6.png'
+import person1 from './images/person1.png'
+import person2 from './images/person2.png'
+import person3 from './images/person3.png'
+
 
 
 import TMS0 from './images/TAWJIHI-MANAGEMENT-SYSTEM-WEBSITE.png'
@@ -34,5 +38,21 @@ let myProjects =[{
 
 
 ]
-
-    export default myProjects
+let testimonials=[
+    {image:person1,
+    name: "JANE DOE",
+    jobTitle:"developer",
+    text:"Working with Shefaa Dali was an absolute pleasure! Their dedication, creativity, and attention to detail truly impressed me. They took my project to the next level and delivered exceptional results on time. I highly recommend Shefaa Dali for any creative endeavor. Looking forward to collaborating again in the future!"
+},
+{image:person2,
+    name: "Bharat Kunal",
+    jobTitle:"Manager at xyz",
+    text:"Working with Shefaa Dali was an absolute pleasure! Their dedication.Their dedication, creativity, and attention to detail truly impressed me. They took my project to the next level and delivered exceptional results on time."
+},
+{image:person3,
+    name: "Bharat Kunal",
+    jobTitle:"Manager at xyz",
+    text:"Working with Shefaa Dali was an absolute pleasure! Their dedication.Their dedication, creativity, and attention to detail truly impressed me. They took my project to the next level and delivered exceptional results on time. I highly recommend Shefaa Dali for any creative endeavor"
+},
+]
+    export {myProjects,testimonials}

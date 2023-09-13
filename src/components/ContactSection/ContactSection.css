@@ -1,9 +1,7 @@
 .ContantBody{
-    top:-1px;
-    position: relative;
+    color: var(--very-dark-blue);
     font-family: Quicksand;
-    font-weight:700;
-    background-color: var(--very-dark-blue);
+    font-weight:700; 
 
 }
 
@@ -18,7 +16,7 @@
     font-size: 30px;
 }
 .ContantBody .linkedin-icon ,.ContantBody .email-icon{
-    color: #f8f9fa;
+    color: var(--very-dark-blue);
 }
 .linkedin-icon:hover{
     color:#0a66c2;

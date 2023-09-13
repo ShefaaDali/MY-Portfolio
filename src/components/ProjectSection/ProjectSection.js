@@ -1,6 +1,6 @@
 import './ProjectSection.css'
 import Project from '../Project/Project';
-import myProjects from '../../data';
+import {myProjects} from '../../data';
 function ProjectSection() {
   return (
     <div className='container Projects' id='Projects'>
