@@ -1,4 +1,4 @@
-.about-section .AboutText{
+.aboutSection .AboutText{
     position: relative;
     top:-5px; 
     background-color: #73566B;
@@ -9,12 +9,11 @@
     font-weight:400;
 }
 .AboutText h1{
-    position: relative;
     font-family: var(--Second-font);
     font-weight:700;
 }
 
-.second-svg {
+.aboutSection .second-svg {
     position: relative;
     top:-25px;
     margin-top: 0px;

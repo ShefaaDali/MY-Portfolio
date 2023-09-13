@@ -21,7 +21,7 @@ let myProjects =[{
         id:1,
     images:[{Path:emp0,Caption:""},{Path:emp1,Caption:""},{Path:emp2,Caption:""},{Path:emp3,Caption:""},{Path:emp4,Caption:""},{Path:emp5,Caption:""}],
         title:"Employee Management Website",
-        tags:["JSP","JDBC","Servlet","JSP","JAVA EE","JAVA SE","OPP","SQL"],
+        tags:["JSP","JDBC","Servlet","JSP","JAVA EE","JAVA SE","OOP","SQL"],
         desciption:"simple employee management websit created using javaEE (jsp & servlet), JDBC, MYSQL and netbeans IDE to manage company employee.",
         github:"https://github.com/ShefaaDali/employee-management-website"},
         {   

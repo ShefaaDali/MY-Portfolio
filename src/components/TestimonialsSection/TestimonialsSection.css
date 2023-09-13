@@ -1,0 +1,12 @@
+.TestimonialsContant{
+    background-color: var(--very-dark-blue);
+}
+.TestimonialsContant h1{
+    font-family: var(--Second-font);
+    font-weight:700;
+}
+.TestimonialsSection .second-svg {
+    position: relative;
+    top:-5px;
+    margin-top: 0px;
+}

@@ -1,7 +1,7 @@
 import './AboutSection.css'
 function AboutSection() {
   return (
-    <div className="about-section" id='About'>
+    <div className="aboutSection" id='About'>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
         <path
           fill="#73566B"

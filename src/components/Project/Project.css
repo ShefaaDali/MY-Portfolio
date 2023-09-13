@@ -14,7 +14,7 @@
 .card-body a{
     background-color: var(--very-dark-violet);
 }
-.card-body a:hover{
+.card-body a:hover, .card-body a:active{
     background-color: var(--very-dark-violet-ligther);
 
 }

@@ -1,0 +1,26 @@
+.TestimonialCard{
+    top: 10px;
+    position: relative;
+    border-radius: 15px;
+    max-width: 25rem;
+}
+.TestimonialCard img{
+position: absolute;
+top: -50px;
+ max-width: 7rem;
+box-shadow: 0 5px 5px var(--very-dark-blue);
+/* border:var(--very-dark-blue) solid  1px ; */
+
+}
+.TestimonialCard .spacer{
+    height: 3rem;
+}
+.TestimonialCard .personTitle{
+    font-family: var(--Second-font);
+    font-weight: 500;
+}
+.TestimonialCard .personTitle span{
+    font-weight: 700;
+    font-size: larger;
+    color: var(--very-dark-violet);
+}
