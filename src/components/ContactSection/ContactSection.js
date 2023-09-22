@@ -9,7 +9,7 @@ function ContactSection() {
       <div className="ContantBody pb-5 pt-1">
         <h1 >Contact:&nbsp;</h1>
         <div className="linkes m-auto lign-items-center">
-          <a href="https://www.linkedin.com/in/shefaadali/">
+          <a href="https://www.linkedin.com/in/shefaadali/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               icon={faLinkedin}
               className="linkedin-icon mx-2"

@@ -57,10 +57,10 @@ function HeroSection() {
           <br></br>& I'm <span className={ fadeIn ? "title-fade-in" : "title-fade-out"} > {TITLES[titleIndex]}</span>
         </p>
         <div className="linkes m-auto">
-          <a href="https://www.linkedin.com/in/shefaadali/">
+          <a href="https://www.linkedin.com/in/shefaadali/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon mx-2" />
           </a>
-          <a href="https://github.com/ShefaaDali">
+          <a href="https://github.com/ShefaaDali" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               icon={faSquareGithub}
               className="github-icon mx-2"
