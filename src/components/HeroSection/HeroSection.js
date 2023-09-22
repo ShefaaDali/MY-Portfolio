@@ -13,8 +13,38 @@ import Git from "./../../images/icons8-git-48.png";
 import Java from "./../../images/java.png";
 import Sql from "./../../images/database.png";
 import Bootstrap from "./../../images/icons8-bootstrap-48.png"
+import { useEffect, useState } from "react";
 
+const TITLES = [
+  "a Computer Engineer",
+  "a web Developer",
+  "an enthusiastic learner",
+];
+  
 function HeroSection() {
+  
+  const [titleIndex,setTitleIndex] = useState(0);
+  const [fadeIn,setFadeIn] = useState(true);
+  
+  useEffect(()=>{
+    let titleInterval=null;
+    let timeout=null;
+
+     titleInterval = setInterval(() => {
+      setTitleIndex((titleIndex + 1)% TITLES.length);
+      setFadeIn(true);
+    }, 4000);
+
+    timeout = setTimeout(()=> {
+      setFadeIn(false);
+    }, 2000);
+
+  return ()=>{
+    clearInterval(titleInterval);
+    clearTimeout(timeout);
+  };
+  },[titleIndex]);
+
   return (
     <div
       className="hero-section container-fluid d-sm-flex pt-5 justify-content-center align-items-center mt-5"
@@ -23,8 +53,8 @@ function HeroSection() {
       <div className="hero-content pt-5 ">
         <p className="text-center fs-1">
           Hi, I'm <br></br>
-          <span className="fw-bold ">Shefaa Dali </span>
-          <br></br> Computer Engineer
+          <span className="fw-bold my-name">Shefaa Dali </span>
+          <br></br>& I'm <span className={ fadeIn ? "title-fade-in" : "title-fade-out"} > {TITLES[titleIndex]}</span>
         </p>
         <div className="linkes m-auto">
           <a href="https://www.linkedin.com/in/shefaadali/">
@@ -35,7 +65,7 @@ function HeroSection() {
               icon={faSquareGithub}
               className="github-icon mx-2"
             />
-          </a>
+          </a> 
           <a href="mailto:shefaadali@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} className="email-icon mx-2" />
           </a>
