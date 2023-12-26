@@ -23,9 +23,22 @@ import TMS9 from './images/TAWJIHI-MANAGEMENT-SYSTEM-WEBSITE9.png'
 import TMS10 from './images/TAWJIHI-MANAGEMENT-SYSTEM-WEBSITE10.png'
 import TMS11 from './images/TAWJIHI-MANAGEMENT-SYSTEM-WEBSITE11.png'
 import TMS12 from './images/TAWJIHI-MANAGEMENT-SYSTEM-WEBSITE12.png'
+ 
+import Animation1 from './images/website scroll animation - Made with Clipchamp.gif'
+import Animation2 from './images/website scroll animation - Made with Clipchamp (1).gif'
+import Animation3 from './images/website scroll animation - Made with Clipchamp (2).gif'
 
 
-let myProjects =[{
+let myProjects =[
+    {
+        id:3,
+    images:[{Path:Animation1,Caption:""},{Path:Animation2,Caption:""},{Path:Animation3,Caption:""}],
+        title:"Employee Management Website",
+        tags:["Bootstrap","CSS","HTML","fontawesome","IntersectionObserver","keyframes","animation"],
+        desciption:"nice animated website using css & js.",
+        github:"https://github.com/ShefaaDali/Photography-Portfolio-",
+    liveLink:"https://shefaadali.github.io/Photography-Portfolio-/"},
+    {
     id:0,
     images:[{Path:imag0,Caption:""}],
     title:"My Prtfolio",
@@ -47,9 +60,12 @@ let myProjects =[{
             tags:["React.js","Node.js","MongoDB","Express","CSS","HTML"],
             desciption:"A website has been developed using the MERN stack to provide students with a convenient and flexible way to access questions prepared by teachers. ",
             github:"https://github.com/ShefaaDali/TAWJIHI-MANAGEMENT-SYSTEM-WEBSITE"},
+            
 
 
 ]
+
+
 let testimonials=[
     {image:person1,
     name: "JANE DOE",
